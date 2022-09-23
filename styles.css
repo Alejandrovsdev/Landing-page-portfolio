@@ -8,9 +8,9 @@
 }
 
 body{
-    background-color: dimgrey;
+    background-color: rgba(255, 255, 255, 0.998);
 }
-
+/* header */
 .header{
     background-color: black;
     display: flex;
@@ -70,4 +70,92 @@ body{
     color: black;
     transition: all 0.3s;
     transform: scale(1.1);
+}
+
+/*portada*/
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+}
+
+p{
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+#portada {
+    background-color: rgb(202, 202, 202);
+}
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.h1portada {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+}
+
+
+.h2portada {
+    border-right: 1px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+}
+.anim-typewriter{
+    animation: typewriter 2s steps(44) 1s 1 normal both,
+blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(4, 4, 4, 0.75);}
+    to{border-right-color: transparent;}
+}
+
+#portada {
+    height: 80vh;
+    padding: 150px 0;
+}
+
+#portada h1 {
+    line-height: 1em;
+}
+
+.flex-portada{
+    display: flex;
+}
+
+.titulos {
+    padding-top: 70px;
+}
+
+.imagen {
+    display: block;
+    margin: 0 auto;
+}
+
+.imagen img {
+    height: 400px;
+
 }
