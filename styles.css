@@ -113,6 +113,7 @@ p{
 
 
 .h2portada {
+    text-shadow: 3px 3px 0 rgb(255, 255, 255);
     border-right: 1px solid rgba(255,255,255,.75);
     font-size: 180%;
     white-space: nowrap;
