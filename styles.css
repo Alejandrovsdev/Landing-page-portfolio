@@ -78,13 +78,13 @@ h1 {
     font-weight: 900;
     margin: auto;
     text-align: center;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 h2 {
     margin: auto;
     text-align: center;
-    padding: 0px;
+    padding: 20px;
 }
 
 p{
@@ -92,7 +92,7 @@ p{
     margin: auto;
     text-align: center;
     line-height: 1.7em;
-    padding: 10px;
+    padding: 20px;
 }
 
 #portada {
@@ -135,6 +135,8 @@ blinkTextCursor 500ms steps(44) infinite normal;
 
 .titulos {
 width: 70%;
+margin: auto;
+padding: 20px;
 }
 
 .imagen {
@@ -147,7 +149,7 @@ width: 30%;
 }
 
 .button2 {
-    margin: 44%;
+    margin: 43%;
     text-align: center;
     align-items: center;
 }
@@ -155,13 +157,15 @@ width: 30%;
 .button2 button{
     font-weight: 700;
     color: rgb(41, 39, 44);
-    padding: 9px 25px;
+    padding: 20px;
+    height: auto;
+    width: auto;
     background: white;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    
+    margin: auto;
 }
 
 .button2 button:hover{
