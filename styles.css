@@ -76,41 +76,39 @@ body{
 h1 {
     text-transform: uppercase;
     font-weight: 900;
-    margin: auto;
     text-align: center;
-    padding: 50px;
+    margin: 20px auto;
 }
 
 h2 {
-    margin: auto;
-    text-align: center;
-    padding: 20px;
+  margin: 20px auto;
+  text-align: center;
 }
 
 p{
     font-size: 1rem;
-    margin: auto;
     text-align: center;
     line-height: 1.7em;
-    padding: 20px;
+    margin: 20px auto;
 }
 
-#portada {
-    background-color: rgb(202, 202, 202);
-}
-
-.container {
-    display: flex;
-    justify-content: center;
+.container-portada {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(202, 202, 202);
+  margin: 10px auto;
+  margin-top: 0;
+  padding: 0px;
 }
 
 .h1portada {
-    font-size: 4rem;
-    font-weight: bold;
-    color: #FFF;
-    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+  font-size: 4rem;
+  font-weight: bold;
+  color: #FFF;
+  text-shadow: 3px 3px 0 rgb(0, 0, 0);
 }
-
 
 .h2portada {
     text-shadow: 3px 3px 0 rgb(255, 255, 255);
@@ -134,43 +132,47 @@ blinkTextCursor 500ms steps(44) infinite normal;
 }
 
 .titulos {
-width: 70%;
-margin: auto;
-padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
 }
 
 .imagen {
-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 
 .imagen img {
-    height: 400px;
+  height: 400px;
 
 }
 
 .button2 {
-    margin: 43%;
-    text-align: center;
-    align-items: center;
+  margin: 20px auto;
 }
 
 .button2 button{
-    font-weight: 700;
-    color: rgb(41, 39, 44);
-    padding: 20px;
-    height: auto;
-    width: auto;
-    background: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin: auto;
+  font-weight: 700;
+  color: rgb(41, 39, 44);
+  padding: 20px;
+  height: auto;
+  width: auto;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin: 20px auto;
 }
 
 .button2 button:hover{
-    background-color: white;
-    color: black;
-    transition: all 0.3s;
-    transform: scale(1.1);
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+  transform: scale(1.1);
 }
