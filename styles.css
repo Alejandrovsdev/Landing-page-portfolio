@@ -232,3 +232,7 @@ blinkTextCursor 500ms steps(44) infinite normal;
 .words span:nth-child(7) {
   animation-delay: 3s;
 }
+
+.words span:nth-child(8) {
+  animation-delay: 3.5s;
+}
