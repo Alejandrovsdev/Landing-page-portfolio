@@ -1,83 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
 }
 
 body{
-    background-color: rgba(255, 255, 255, 0.998);
+  background-color: rgba(255, 255, 255, 0.998);
 }
 /* header */
 .header{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
 }
 
 .header .logo{
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header .logo img{
-    height: 60px;
-    width: auto;
-    transition: all 0.3s;
-    border-radius: 2rem;
+  height: 60px;
+  width: auto;
+  transition: all 0.3s;
+  border-radius: 2rem;
 }
 
 .header .logo img:hover{
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .header .nav-links{
-    list-style: none;
+  list-style: none;
 }
 
 .header .nav-links li{
-    display: inline-block;
-    padding: 0 20px;
+  display: inline-block;
+  padding: 0 20px;
 }
 
 .header .nav-links li:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .header .nav-links a{
-    font-size: 700;
-    color: rgb(243, 242, 245);
-    text-decoration: none;
+  font-size: 700;
+  color: rgb(243, 242, 245);
+  text-decoration: none;
 }
 
 .header .button button{
-    font-weight: 700;
-    color: rgb(41, 39, 44);
-    padding: 9px 25px;
-    background: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+  font-weight: 700;
+  color: rgb(41, 39, 44);
+  padding: 9px 25px;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 .header .button button:hover{
-    background-color: white;
-    color: black;
-    transition: all 0.3s;
-    transform: scale(1.1);
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+  transform: scale(1.1);
 }
 
 /*portada*/
 h1 {
-    text-transform: uppercase;
-    font-weight: 900;
-    text-align: center;
-    margin: 20px auto;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  margin: 20px auto;
 }
 
 h2 {
@@ -86,10 +86,10 @@ h2 {
 }
 
 p{
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.7em;
-    margin: 20px auto;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.7em;
+  margin: 20px auto;
 }
 
 .container-portada {
@@ -111,24 +111,24 @@ p{
 }
 
 .h2portada {
-    text-shadow: 3px 3px 0 rgb(255, 255, 255);
-    border-right: 1px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);  
+  text-shadow: 3px 3px 0 rgb(255, 255, 255);
+  border-right: 1px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
 }
 .anim-typewriter{
-    animation: typewriter 2s steps(44) 1s 1 normal both,
+  animation: typewriter 2s steps(44) 1s 1 normal both,
 blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
-    from{width: 0;}
-    to{width: 9em;}
+  from{width: 0;}
+  to{width: 9em;}
 }
 @keyframes blinkTextCursor{
-    from{border-right-color: rgba(4, 4, 4, 0.75);}
-    to{border-right-color: transparent;}
+  from{border-right-color: rgba(4, 4, 4, 0.75);}
+  to{border-right-color: transparent;}
 }
 
 .titulos {
