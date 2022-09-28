@@ -395,6 +395,11 @@ blinkTextCursor 500ms steps(44) infinite normal;
 	margin-top: 40px;
 }
 
+.footer-icons img:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+
 .footer-distributed .footer-icons a{
 	display: inline-block;
 	width: 50px;
