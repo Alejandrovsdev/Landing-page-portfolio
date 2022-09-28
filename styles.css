@@ -100,7 +100,7 @@ p{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgb(202, 202, 202);
+  background-color: white;
   margin: 10px auto;
   margin-top: 0;
   padding: 0px;
@@ -109,13 +109,12 @@ p{
 .h1portada {
   font-size: 4rem;
   font-weight: bold;
-  color: #FFF;
-  text-shadow: 3px 3px 0 rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .h2portada {
-  text-shadow: 3px 3px 0 rgb(255, 255, 255);
-  border-right: 1px solid rgba(255,255,255,.75);
+  color: rgb(0, 0, 0);
+  border-right: 1px solid rgba(0, 0, 0, 0.75);
   font-size: 180%;
   white-space: nowrap;
   overflow: hidden;
@@ -161,11 +160,11 @@ blinkTextCursor 500ms steps(44) infinite normal;
 
 .button2 button{
   font-weight: 700;
-  color: rgb(41, 39, 44);
+  color: rgb(255, 255, 255);
   padding: 20px;
   height: auto;
   width: auto;
-  background: white;
+  background: rgb(8, 8, 8);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -178,6 +177,11 @@ blinkTextCursor 500ms steps(44) infinite normal;
   color: black;
   transition: all 0.3s;
   transform: scale(1.1);
+}
+
+#section-about {
+  background-color: #1f2022;
+  color: white;
 }
 
 .pro-animacion {
