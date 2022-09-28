@@ -406,8 +406,7 @@ blinkTextCursor 500ms steps(44) infinite normal;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-	margin-right: 3px;
-	margin-bottom: 5px;
+  margin: 10px auto ;
 }
 
 .footer-distributed .footer-right{
