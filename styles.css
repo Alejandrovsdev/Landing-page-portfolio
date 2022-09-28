@@ -138,7 +138,7 @@ blinkTextCursor 500ms steps(44) infinite normal;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 40%;
 }
 
 .imagen {
@@ -146,7 +146,7 @@ blinkTextCursor 500ms steps(44) infinite normal;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 60%;
 }
 
 .imagen img {
