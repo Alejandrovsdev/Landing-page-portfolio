@@ -409,6 +409,10 @@ blinkTextCursor 500ms steps(44) infinite normal;
   margin: 10px auto ;
 }
 
+#github {
+  background-color: white;
+}
+
 .footer-distributed .footer-right{
 	float: right;
 }
