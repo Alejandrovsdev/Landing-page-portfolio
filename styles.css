@@ -589,5 +589,8 @@ blinkTextCursor 500ms steps(44) infinite normal;
   .pro-animacion2 span {
     font-size: 70px;
   }
+}
 
+#menuToggle .menulabel {
+  display: none;
 }
