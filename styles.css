@@ -5,7 +5,6 @@
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
-  border: 1px solid red;
 }
 
 body{
@@ -589,8 +588,16 @@ blinkTextCursor 500ms steps(44) infinite normal;
   .pro-animacion2 span {
     font-size: 70px;
   }
-}
 
-#menuToggle .menulabel {
-  display: none;
+  #menuToggle .menulabel {
+    display: none;
+  }
+  
+  .menulabel {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  #menutoggle:checked+.nav-links {
+  }
 }
