@@ -5,6 +5,7 @@
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
+  border: 1px solid red;
 }
 
 body{
@@ -101,9 +102,9 @@ p{
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin: 10px auto;
-  margin-top: 0;
+  margin: 10px 0;
   padding: 0px;
+  width: 100%;
 }
 
 .h1portada {
@@ -426,6 +427,7 @@ blinkTextCursor 500ms steps(44) infinite normal;
 
 #github {
   background-color: white;
+  border-radius: 50%;
 }
 
 .footer-distributed .footer-right{
@@ -547,5 +549,45 @@ blinkTextCursor 500ms steps(44) infinite normal;
 	.footer-distributed form button{
 		float: none;
 	}
+
+}
+
+@media screen and (max-width: 860px) {
+  .imagen {
+  display: none;
+  }
+  .text-about {
+    width: 400px;
+  }
+  .h1portada {
+    font-size: 2rem ;
+  }
+  .h2portada {
+    font-size: 90% ;
+  }
+
+  
+}
+
+@media screen and (max-width: 515px) {
+  .text-about {
+    width: 200px;
+  }
+
+  .h1portada {
+    font-size: 1rem ;
+  }
+
+  .h2portada {
+    font-size: 50% ;
+}
+
+  .pro-animacion span {
+    font-size: 70px;
+  }
+
+  .pro-animacion2 span {
+    font-size: 70px;
+  }
 
 }
